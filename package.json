@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gif-from-sprite": "^1.0.1",
+    "gif-from-sprite": "https://github.com/yolandaz/gif-from-sprite/tarball/master",
     "image-downloader": "^3.4.2"
   }
 }

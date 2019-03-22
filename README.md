@@ -1,9 +1,6 @@
 # setup
 
 1. npm i
-2. lol uh go to `node_modules/gif-from-sprite/lib/GifFromSprite.js`
-change line 6 to: `static create(imgSrc, filename, interval, rows, cols, skipLast) {`
-change line 26 to: `for (var i = 0; i < r * c - skipLast; i++) {`
 
 # how to download a sticker pack
 
