@@ -1,6 +1,6 @@
 # setup
 
-1. npm i
+1. `npm i`
 
 # how to download a sticker pack
 
