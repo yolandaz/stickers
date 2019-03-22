@@ -21,6 +21,7 @@ copy(stickers.map(el => el.style.backgroundImage).map(s => s.substring(5, s.leng
 if your sticker pack is not animated: YAY you're done... time to rename
 
 if your sticker pack is animated:
+
 7. rename each sticker sheet to `name.row.col.skipLast` (for example: `bounce.3.4.2.png`)
     * `name`: the name you want the output gif to be
     * `row` and `cols`: number of rows columns in the spritesheet
