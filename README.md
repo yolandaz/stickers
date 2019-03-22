@@ -10,10 +10,12 @@
 1. open a sticker pack on messenger
 2. if the stickers are animated, hover over all the stickers so that the animated version will be loaded
 3. run in console (urls will be copied to clipboard)
-`
+
+```javascript
 stickers = Array.from(document.querySelectorAll('.uiGrid._51mz._5f0n ._5r8i'))
 copy(stickers.map(el => el.style.backgroundImage).map(s => s.substring(5, s.length - 2)))
-`
+```
+
 4. paste the urls into `data.js`
 5. also set `stickerPackName` (what you want to name the images) and `isGif` 
 6. run `node step1.js`
