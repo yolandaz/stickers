@@ -2,8 +2,8 @@
 
 1. npm i
 2. lol uh go to `node_modules/gif-from-sprite/lib/GifFromSprite.js`
-change line 6 to: `static create(imgSrc, filename, interval, rows, cols, skipLast) {`
-change line 26 to: `for (var i = 0; i < r * c - skipLast; i++) {`
+    * change line 6 to: `static create(imgSrc, filename, interval, rows, cols, skipLast) {`
+    * change line 26 to: `for (var i = 0; i < r * c - skipLast; i++) {`
 
 # how to download a sticker pack
 
@@ -22,7 +22,7 @@ if your sticker pack is not animated: YAY you're done... time to rename
 
 if your sticker pack is animated:
 7. rename each sticker sheet to `name.row.col.skipLast` (for example: `bounce.3.4.2.png`)
-`name`: the name you want the output gif to be
-`row` and `cols`: number of rows columns in the spritesheet
-`skipLast`: the number of blank frames at the end to be skipped
+    * `name`: the name you want the output gif to be
+    * `row` and `cols`: number of rows columns in the spritesheet
+    * `skipLast`: the number of blank frames at the end to be skipped
 8. run `node step2.js`
