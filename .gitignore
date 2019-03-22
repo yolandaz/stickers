@@ -1,0 +1,33 @@
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+/node_modules/
+
+# Users Environment Variables
+.lock-wscript
+
+build
+**/*.jsxr
+build-info.json
+
+/public/app.css
+/public/*.css.map
+/public/*.js
+/public/*.js.map
+/public/*.gz
+/public/.vendor.md5.*
+/public/index.html
+library
+
+package.tgz
+package
+.DS_Store
+
+# Temporary editor files
+*~
+.*.swp
+.swp
+.idea
+*sublime*
+*.tern-port
+/ts/samsara-common/gopherjs/*.map
