@@ -1,6 +1,7 @@
 # setup
 
 1. `npm i`
+  - if `node-canvas` fails to install, try `brew install pkg-config cairo libpng jpeg giflib` and `export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"`
 
 # how to download a sticker pack
 
